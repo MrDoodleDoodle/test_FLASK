@@ -49,7 +49,7 @@ def search_page():
     name = text+str(depth)
     files = glob.glob('templates/*')
     for f in files:
-        if f != "templates\\base.html":
+        if f != "templates\\base.html" and f != "tamplates/base.html":
             print(f)
             os.remove(f)
     Data().combine2(pickle.load(open('Data.dat', 'rb')), text, depth, name)
