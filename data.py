@@ -111,10 +111,10 @@ class Data():
         f.write("""{% endblock %}""")
         f.close
 
-    def combine2(self, d, keyword, depth):
+    def combine2(self, d, keyword, depth, name):
         d1 = dict(d)
         self.search2(d1, keyword, 0, depth)
-        f = open("templates//search_page.html", "w")
+        f = open(f"templates//{name}.html", "w")
         f.write("""{% extends 'base.html' %}\n""")
         f.write("""{% block body %}\n""")
         #f.write(f"""<form method="POST"><input type="submit" name="depth" value={depth}></form>""")

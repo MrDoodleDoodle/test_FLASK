@@ -1,6 +1,9 @@
 from flask import Flask, request, render_template, url_for, request, redirect
 from data import Data
 import time, pickle
+import os
+import glob
+
 
 app = Flask(__name__)
 
@@ -23,9 +26,9 @@ def login_page():
 
 @app.route('/search')
 def start_page():
-    Data().combine2(pickle.load(open('Data.dat', 'rb')), "lolololololo", 2)
+    Data().combine2(pickle.load(open('Data.dat', 'rb')), "lolololololo", 2, 'start_page')
     #Data().combine("all_file_structure.txt", 'lolololololo')
-    return render_template('search_page.html', depth = "2")
+    return render_template('start_page.html', depth = "2")
 
 @app.route('/search', methods=['POST'])
 def search_page():
@@ -43,14 +46,20 @@ def search_page():
         text = ""
     start_time = time.time()
     print(depth)
-    Data().combine2(pickle.load(open('Data.dat', 'rb')), text, depth)
+    name = text+str(depth)
+    files = glob.glob('templates/*')
+    for f in files:
+        if f != "templates\\base.html":
+            print(f)
+            os.remove(f)
+    Data().combine2(pickle.load(open('Data.dat', 'rb')), text, depth, name)
     #Data().combine("all_file_structure.txt", text)
     print(time.time()-start_time)
 
     if depth ==20:
         depth = 0
     print(depth)
-    return render_template('search_page.html', depth = depth)
+    return render_template(f'{name}.html', depth = depth)
 
 
 
