@@ -1,0 +1,4380 @@
+{% extends 'base.html' %}
+{% block body %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/style.css') }}"><details class="c1"> 
+  <summary>WD Discovery</summary> 
+<details class="c1"> 
+  <summary>Contents</summary> 
+<details class="c1"> 
+  <summary>EULAs</summary> 
+<details class="c1"> 
+  <summary>cs-CZ</summary> 
+</details>
+<details class="c1"> 
+  <summary>de-DE</summary> 
+</details>
+<details class="c1"> 
+  <summary>en-US</summary> 
+</details>
+<details class="c1"> 
+  <summary>es-ES</summary> 
+</details>
+<details class="c1"> 
+  <summary>fr-FR</summary> 
+</details>
+<details class="c1"> 
+  <summary>hu-HU</summary> 
+</details>
+<details class="c1"> 
+  <summary>it-IT</summary> 
+</details>
+<details class="c1"> 
+  <summary>ja-JP</summary> 
+</details>
+<details class="c1"> 
+  <summary>ko-KR</summary> 
+</details>
+<details class="c1"> 
+  <summary>nb-NO</summary> 
+</details>
+<details class="c1"> 
+  <summary>nl-NL</summary> 
+</details>
+<details class="c1"> 
+  <summary>pl-PL</summary> 
+</details>
+<details class="c1"> 
+  <summary>pt-BR</summary> 
+</details>
+<details class="c1"> 
+  <summary>ru-RU</summary> 
+</details>
+<details class="c1"> 
+  <summary>sv-SE</summary> 
+</details>
+<details class="c1"> 
+  <summary>tr-TR</summary> 
+</details>
+<details class="c1"> 
+  <summary>zh-CN</summary> 
+</details>
+<details class="c1"> 
+  <summary>zh-TW</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>locales</summary> 
+</details>
+<details class="c1"> 
+  <summary>Packages</summary> 
+<details class="c1"> 
+  <summary>WDDriveUtilities</summary> 
+<details class="c1"> 
+  <summary>redist</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>resources</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>WD Software Offline Installers</summary> 
+<details class="c1"> 
+  <summary>For Mac</summary> 
+</details>
+<details class="c1"> 
+  <summary>For Windows</summary> 
+<details class="c1"> 
+  <summary>WD Backup</summary> 
+<details class="c1"> 
+  <summary>redist</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>WD Drive Utilities</summary> 
+<details class="c1"> 
+  <summary>redist</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>WD Security</summary> 
+<details class="c1"> 
+  <summary>redist</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>.Spotlight-V100</summary> 
+<details class="c1"> 
+  <summary>Store-V2</summary> 
+<details class="c1"> 
+  <summary>0C68C37D-26E3-42A0-84FE-099D94DF4D3B</summary> 
+<details class="c1"> 
+  <summary>journals.corespotlight</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.live</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.live_system</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.live_user</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.live_priority</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.assisted_import_pre</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.assisted_import_post</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.health_check</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.migration</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.migration_secondchance</summary> 
+</details>
+<details class="c1"> 
+  <summary>journals.scan</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>$RECYCLE.BIN</summary> 
+<details class="c1"> 
+  <summary>$R7QWW0S</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>.fseventsd</summary> 
+</details>
+<details class="c1"> 
+  <summary>System Volume Information</summary> 
+</details>
+<details class="c1"> 
+  <summary>ipek to export</summary> 
+<details class="c1"> 
+  <summary>diffneurod1_cluster1_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffneurod1_cluster2_motifs</summary> 
+<details class="c1"> 
+  <summary>intermediate</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffneurod1_cluster3_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>foxg1neurod1_shared_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FOXG1_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>output</summary> 
+<details class="c1"> 
+  <summary>cluster_1denovo</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_1new</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_2denovo</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_2new</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_3denovo</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_3new</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Diff_NEUROD1_maelstrom.out</summary> 
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>foxg1neurod1_shared_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>foxg1neurod1_shared_motifs (copy 1)</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>k4me3_maelstrom.out</summary> 
+</details>
+<details class="c1"> 
+  <summary>shared.out</summary> 
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>shared_</summary> 
+<details class="c1"> 
+  <summary>intermediate</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>shared_denovo</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>shared.out</summary> 
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>stratified.out</summary> 
+<details class="c1"> 
+  <summary>logos</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>WT_neurod1_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+<details class="c1"> 
+  <summary>motif_scan_results</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Camila</summary> 
+<details class="c1"> 
+  <summary>scRNA_E12</summary> 
+<details class="c1"> 
+  <summary>04.2022</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+<details class="c1"> 
+  <summary>figures</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>06.2022</summary> 
+</details>
+<details class="c1"> 
+  <summary>Old</summary> 
+<details class="c1"> 
+  <summary>2021.11.11 Analysis</summary> 
+</details>
+<details class="c1"> 
+  <summary>2021.11.12 Analysis</summary> 
+</details>
+<details class="c1"> 
+  <summary>2021.11.12_analysis</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+<details class="c1"> 
+  <summary>figures</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>2021.11.18</summary> 
+</details>
+<details class="c1"> 
+  <summary>2021.12.08</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+<details class="c1"> 
+  <summary>figures</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+<details class="c1"> 
+  <summary>figures</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>data</summary> 
+<details class="c1"> 
+  <summary>C376-5</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>C376-6</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>K376-3</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>K376-7</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Gene expression</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>E12_scATAC-Dot1l-cKO_fastq</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+<details class="c1"> 
+  <summary>deepseq</summary> 
+<details class="c1"> 
+  <summary>sequencing_data</summary> 
+<details class="c1"> 
+  <summary>210813_A00931_0347_AHGTFFDRXY_lanes1_2</summary> 
+<details class="c1"> 
+  <summary>Project_1988_Arrigoni_DeepSeq</summary> 
+<details class="c1"> 
+  <summary>Sample_21L002811</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002802</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002808</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002805</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002799</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002816</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002812</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002818</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002797</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002801</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002806</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002815</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002798</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002817</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002804</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002809</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002803</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002810</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002814</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002807</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002800</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002819</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002813</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_21L002796</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>20210924_E12-scRNA</summary> 
+<details class="c1"> 
+  <summary>cellranger_v6.1</summary> 
+<details class="c1"> 
+  <summary>output</summary> 
+<details class="c1"> 
+  <summary>C376-5</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>C376-6</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>K376-3</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>K376-7</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>2_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Tobi</summary> 
+</details>
+<details class="c1"> 
+  <summary>scRNA_E14</summary> 
+<details class="c1"> 
+  <summary>20220523</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>2022-05-24_Knitted_script_files</summary> 
+<details class="c1"> 
+  <summary>figure-html</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Integrated_or_not_script_files</summary> 
+<details class="c1"> 
+  <summary>figure-latex</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Total_clusters_files</summary> 
+<details class="c1"> 
+  <summary>figure-latex</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Unzipped</summary> 
+<details class="c1"> 
+  <summary>E14.5_WT_445.5</summary> 
+</details>
+<details class="c1"> 
+  <summary>E14.5_KO_445.2</summary> 
+</details>
+<details class="c1"> 
+  <summary>E14.5_KO_445.3</summary> 
+</details>
+<details class="c1"> 
+  <summary>E14.5_WT_445.4</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cellranger</summary> 
+<details class="c1"> 
+  <summary>E14-KO_445-2</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>gene_expression_10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>E14-KO_445-3</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>gene_expression_10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>E14-WT_445-4</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>gene_expression_10_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>E14-WT_445-5</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>gene_expression_10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>06.2022</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+<details class="c1"> 
+  <summary>figures</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>scRNA-seq_others</summary> 
+<details class="c1"> 
+  <summary>EoDot_E14.5</summary> 
+<details class="c1"> 
+  <summary>EoDot_E14.5_cKO_243.1</summary> 
+</details>
+<details class="c1"> 
+  <summary>EoDot_E14.5_cKO_243.3</summary> 
+</details>
+<details class="c1"> 
+  <summary>EoDot_E14.5_WT_243.2</summary> 
+</details>
+<details class="c1"> 
+  <summary>EoDot_E14.5_WT_243.4</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Organoids_EPZ</summary> 
+<details class="c1"> 
+  <summary>Organoid_DMSO_1</summary> 
+</details>
+<details class="c1"> 
+  <summary>Organoid_DMSO_2</summary> 
+</details>
+<details class="c1"> 
+  <summary>Organoid_EPZ_3</summary> 
+</details>
+<details class="c1"> 
+  <summary>Organoid_EPZ_4</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>EoAF9_E14.5</summary> 
+<details class="c1"> 
+  <summary>EoAF9_E14.5_cKO_233.2</summary> 
+</details>
+<details class="c1"> 
+  <summary>EoAF9_E14.5_cKO_233.4</summary> 
+</details>
+<details class="c1"> 
+  <summary>EoAF9_E14.5_WT_233.1</summary> 
+</details>
+<details class="c1"> 
+  <summary>EoAF9_E14.5_WT_233.3</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Tobi</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>scRNA_E16</summary> 
+<details class="c1"> 
+  <summary>EmxDot_E16.5_cKO_469.8</summary> 
+</details>
+<details class="c1"> 
+  <summary>EmxDot_E16.5_WT_469.1</summary> 
+</details>
+<details class="c1"> 
+  <summary>06.2022</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+<details class="c1"> 
+  <summary>figures</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Data</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+<details class="c1"> 
+  <summary>manke</summary> 
+<details class="c1"> 
+  <summary>processing</summary> 
+<details class="c1"> 
+  <summary>hohl</summary> 
+<details class="c1"> 
+  <summary>20220603_scRNA-all_timepoints</summary> 
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+</details>
+<details class="c1"> 
+  <summary>figures</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>scRNA-E14-E16-processed</summary> 
+<details class="c1"> 
+  <summary>data</summary> 
+<details class="c1"> 
+  <summary>manke</summary> 
+<details class="c1"> 
+  <summary>processing</summary> 
+<details class="c1"> 
+  <summary>hohl</summary> 
+<details class="c1"> 
+  <summary>20220518_E14.5-scRNA</summary> 
+</details>
+<details class="c1"> 
+  <summary>20220518_E16.5-scRNA</summary> 
+<details class="c1"> 
+  <summary>cellranger</summary> 
+<details class="c1"> 
+  <summary>E16-KO_469-8</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>gene_expression_10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>E16-WT_469-1</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>gene_expression_10_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>E16-WT_469-6</summary> 
+<details class="c1"> 
+  <summary>outs</summary> 
+<details class="c1"> 
+  <summary>raw_feature_bc_matrix</summary> 
+</details>
+<details class="c1"> 
+  <summary>analysis</summary> 
+<details class="c1"> 
+  <summary>clustering</summary> 
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>umap</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>diffexp</summary> 
+<details class="c1"> 
+  <summary>gene_expression_kmeans_2_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_5_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_3_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_4_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_8_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_7_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_6_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_9_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_kmeans_10_clusters</summary> 
+</details>
+<details class="c1"> 
+  <summary>gene_expression_graphclust</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>tsne</summary> 
+<details class="c1"> 
+  <summary>gene_expression_2_components</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>pca</summary> 
+<details class="c1"> 
+  <summary>gene_expression_10_components</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_feature_bc_matrix</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>scRNA-seq_analysis-master23-05-2022</summary> 
+<details class="c1"> 
+  <summary>scRNA-seq_analysis-master</summary> 
+<details class="c1"> 
+  <summary>code</summary> 
+<details class="c1"> 
+  <summary>R</summary> 
+<details class="c1"> 
+  <summary>scJoint</summary> 
+</details>
+<details class="c1"> 
+  <summary>seurat</summary> 
+<details class="c1"> 
+  <summary>00_misc</summary> 
+<details class="c1"> 
+  <summary>in_progress</summary> 
+<details class="c1"> 
+  <summary>multiplets</summary> 
+</details>
+<details class="c1"> 
+  <summary>sampleprep</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>templates</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>210923_E12</summary> 
+</details>
+<details class="c1"> 
+  <summary>211124_LaManno</summary> 
+</details>
+<details class="c1"> 
+  <summary>211207_VogelAnno</summary> 
+</details>
+<details class="c1"> 
+  <summary>220202_LeviCell-NPC</summary> 
+</details>
+<details class="c1"> 
+  <summary>220519_E12</summary> 
+</details>
+<details class="c1"> 
+  <summary>220519_E14</summary> 
+</details>
+<details class="c1"> 
+  <summary>220519_E16</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>python</summary> 
+<details class="c1"> 
+  <summary>CellRank</summary> 
+</details>
+<details class="c1"> 
+  <summary>scanpy</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>img</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Ipek</summary> 
+<details class="c1"> 
+  <summary>TSA_RNA-seq_Project_1223</summary> 
+<details class="c1"> 
+  <summary>200204_A00931_0053_AHJTG5DRXX</summary> 
+<details class="c1"> 
+  <summary>Project_1223_Maier_A03_Vogel</summary> 
+<details class="c1"> 
+  <summary>Sample_20L000091</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000082</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000088</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000085</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000102</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000096</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000078</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000092</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000076</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000098</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000081</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000086</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000101</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000095</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000103</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000097</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000079</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000084</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000089</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000083</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000090</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000100</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000094</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000087</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000080</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000077</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000099</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000093</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Project_947</summary> 
+<details class="c1"> 
+  <summary>190613_J00182_0164_AH7FNNBBXY_lanes7_8</summary> 
+<details class="c1"> 
+  <summary>Project_947_Maier_A03_Vogel</summary> 
+<details class="c1"> 
+  <summary>Sample_19L002719</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L002721</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L002722</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L002717</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L002718</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L002720</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L002724</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L002723</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Gridion_RNAseq_EmxDot_E14.5_Izzo</summary> 
+<details class="c1"> 
+  <summary>20210318_1235_X4_FAP54861_76af7f53.tar</summary> 
+<details class="c1"> 
+  <summary>20210318_1235_X4_FAP54861_76af7f53</summary> 
+<details class="c1"> 
+  <summary>Analysis_1761_Franz_Vogel</summary> 
+<details class="c1"> 
+  <summary>mapping_on_mm10</summary> 
+<details class="c1"> 
+  <summary>21S008126</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQC_Project_1761_Franz_Vogel</summary> 
+<details class="c1"> 
+  <summary>Sample_21S008126</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Project_1761_Franz_Vogel</summary> 
+<details class="c1"> 
+  <summary>Sample_21S008126</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>20210318_1235_X5_FAP53967_c297d6e1.tar</summary> 
+<details class="c1"> 
+  <summary>20210318_1235_X5_FAP53967_c297d6e1</summary> 
+<details class="c1"> 
+  <summary>Analysis_1761_Franz_Vogel</summary> 
+<details class="c1"> 
+  <summary>mapping_on_mm10</summary> 
+<details class="c1"> 
+  <summary>21S008125</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQC_Project_1761_Franz_Vogel</summary> 
+<details class="c1"> 
+  <summary>Sample_21S008125</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Project_1761_Franz_Vogel</summary> 
+<details class="c1"> 
+  <summary>Sample_21S008125</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>GEO_submission_041121_vogel</summary> 
+<details class="c1"> 
+  <summary>ATAC-seq</summary> 
+<details class="c1"> 
+  <summary>Sample_19L004839</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L004836</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L004837</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L004838</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>RELACS ChIP-seq</summary> 
+</details>
+<details class="c1"> 
+  <summary>RNA-seq_in vitro</summary> 
+<details class="c1"> 
+  <summary>Sample_20L000103</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000088</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000089</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000090</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000091</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000092</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000093</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000094</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000095</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000096</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000097</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000098</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000099</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000100</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000101</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_20L000102</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>RNA-seq_invivo</summary> 
+</details>
+<details class="c1"> 
+  <summary>FOXG1 WT ChIP-seq_invivo</summary> 
+</details>
+<details class="c1"> 
+  <summary>NEUROD1 WT ChIP-seq</summary> 
+</details>
+<details class="c1"> 
+  <summary>FOXG1-NEUROD1-Neurod1_Foxg1KD_ChIP-seq</summary> 
+</details>
+<details class="c1"> 
+  <summary>FOXG1 WT ChIP-seq_in vitro</summary> 
+</details>
+<details class="c1"> 
+  <summary>GEO_submission_correction_vogel</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FOXG1_project</summary> 
+<details class="c1"> 
+  <summary>Foxg1_ChIP-Seq_AdultHippo_6w</summary> 
+<details class="c1"> 
+  <summary>output_snakepipes</summary> 
+<details class="c1"> 
+  <summary>Bowtie2</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Sambamba</summary> 
+</details>
+<details class="c1"> 
+  <summary>filtered_bam</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>MACS2</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>QC_report</summary> 
+</details>
+<details class="c1"> 
+  <summary>.snakemake</summary> 
+<details class="c1"> 
+  <summary>singularity</summary> 
+</details>
+<details class="c1"> 
+  <summary>conda-archive</summary> 
+</details>
+<details class="c1"> 
+  <summary>shadow</summary> 
+</details>
+<details class="c1"> 
+  <summary>locks</summary> 
+</details>
+<details class="c1"> 
+  <summary>metadata</summary> 
+</details>
+<details class="c1"> 
+  <summary>FOXG1_ChIP-seq_sankemake_log</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>deepTools_qc</summary> 
+<details class="c1"> 
+  <summary>plotPCA</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotCorrelation</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiBamSummary</summary> 
+</details>
+<details class="c1"> 
+  <summary>bamPEFragmentSize</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotCoverage</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>estimateReadFiltering</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotFingerprint</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>deepTools_ChIP</summary> 
+<details class="c1"> 
+  <summary>bamCompare</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>multiQC</summary> 
+<details class="c1"> 
+  <summary>multiqc_data</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>bamCoverage</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQ</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>NeuroD1_ChIPseq</summary> 
+<details class="c1"> 
+  <summary>downstream_analysis</summary> 
+<details class="c1"> 
+  <summary>analysis_ActiveMotifs</summary> 
+<details class="c1"> 
+  <summary>AM_UFreiburg_Neurod1_CSeq_37395</summary> 
+<details class="c1"> 
+  <summary>graphics</summary> 
+</details>
+<details class="c1"> 
+  <summary>browser_screenshots</summary> 
+</details>
+<details class="c1"> 
+  <summary>peaksequences</summary> 
+</details>
+<details class="c1"> 
+  <summary>homer_motifanalysis</summary> 
+<details class="c1"> 
+  <summary>3_07C8_N3_NeuroD1_mm10</summary> 
+<details class="c1"> 
+  <summary>homerResults</summary> 
+</details>
+<details class="c1"> 
+  <summary>knownResults</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>2_07J1_N2_NeuroD1_mm10</summary> 
+<details class="c1"> 
+  <summary>homerResults</summary> 
+</details>
+<details class="c1"> 
+  <summary>knownResults</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>__MACOSX</summary> 
+<details class="c1"> 
+  <summary>AM UFreiburg Neurod1 CSeq 37395</summary> 
+<details class="c1"> 
+  <summary>browser_screenshots</summary> 
+</details>
+<details class="c1"> 
+  <summary>graphics</summary> 
+</details>
+<details class="c1"> 
+  <summary>peaksequences</summary> 
+</details>
+<details class="c1"> 
+  <summary>homer_motifanalysis</summary> 
+<details class="c1"> 
+  <summary>2_07J1_N2_NeuroD1_mm10</summary> 
+<details class="c1"> 
+  <summary>knownResults</summary> 
+</details>
+<details class="c1"> 
+  <summary>homerResults</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>3_07C8_N3_NeuroD1_mm10</summary> 
+<details class="c1"> 
+  <summary>homerResults</summary> 
+</details>
+<details class="c1"> 
+  <summary>knownResults</summary> 
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>output_snakePipes</summary> 
+<details class="c1"> 
+  <summary>FASTQ</summary> 
+</details>
+<details class="c1"> 
+  <summary>filtered_bam</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Sambamba</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>multiQC</summary> 
+<details class="c1"> 
+  <summary>multiqc_data</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>QC_report</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>MACS2</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>bamCoverage</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>originalFASTQ</summary> 
+</details>
+<details class="c1"> 
+  <summary>cluster_logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>Bowtie2</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>deepTools_ChIP</summary> 
+<details class="c1"> 
+  <summary>bamCompare</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotFingerprint</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>NEUROD1_ChIP-seq_deepTools_qc</summary> 
+<details class="c1"> 
+  <summary>plotPCA</summary> 
+</details>
+<details class="c1"> 
+  <summary>bamPEFragmentSize</summary> 
+</details>
+<details class="c1"> 
+  <summary>estimateReadFiltering</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiBamSummary</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotCorrelation</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotCoverage</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>fastq_files</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>RELACS_inVitroHippo</summary> 
+<details class="c1"> 
+  <summary>output_snakepipes</summary> 
+<details class="c1"> 
+  <summary>bamCoverage</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>originalFASTQ</summary> 
+</details>
+<details class="c1"> 
+  <summary>MACS2</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>deepTools_ChIP</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotFingerprint</summary> 
+</details>
+<details class="c1"> 
+  <summary>bamCompare</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_bam</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>.snakemake</summary> 
+<details class="c1"> 
+  <summary>singularity</summary> 
+</details>
+<details class="c1"> 
+  <summary>locks</summary> 
+</details>
+<details class="c1"> 
+  <summary>shadow</summary> 
+</details>
+<details class="c1"> 
+  <summary>metadata</summary> 
+</details>
+<details class="c1"> 
+  <summary>conda-archive</summary> 
+</details>
+<details class="c1"> 
+  <summary>RELACS_snakemake_log</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>QC_report</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiQC</summary> 
+<details class="c1"> 
+  <summary>multiqc_data</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>histoneHMM</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQ</summary> 
+</details>
+<details class="c1"> 
+  <summary>FASTQ_Cutadapt</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Sambamba</summary> 
+</details>
+<details class="c1"> 
+  <summary>Bowtie2</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>RELACS_deepTools_qc</summary> 
+<details class="c1"> 
+  <summary>bamPEFragmentSize</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotCorrelation</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiBamSummary</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotCoverage</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotPCA</summary> 
+</details>
+<details class="c1"> 
+  <summary>estimateReadFiltering</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg1_RNA-Seq_AdultHippo_6w</summary> 
+<details class="c1"> 
+  <summary>output_snakepipes</summary> 
+<details class="c1"> 
+  <summary>deepTools_qc</summary> 
+<details class="c1"> 
+  <summary>plotCorrelation</summary> 
+</details>
+<details class="c1"> 
+  <summary>bamPEFragmentSize</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiBigwigSummary</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>estimateReadFiltering</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotEnrichment</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotPCA</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>STAR</summary> 
+<details class="c1"> 
+  <summary>377_PlusPlus_hippoc</summary> 
+<details class="c1"> 
+  <summary>377_PlusPlus_hippoc._STARtmp</summary> 
+<details class="c1"> 
+  <summary>BAMsort</summary> 
+<details class="c1"> 
+  <summary>10</summary> 
+</details>
+<details class="c1"> 
+  <summary>0</summary> 
+</details>
+<details class="c1"> 
+  <summary>17</summary> 
+</details>
+<details class="c1"> 
+  <summary>7</summary> 
+</details>
+<details class="c1"> 
+  <summary>19</summary> 
+</details>
+<details class="c1"> 
+  <summary>3</summary> 
+</details>
+<details class="c1"> 
+  <summary>13</summary> 
+</details>
+<details class="c1"> 
+  <summary>9</summary> 
+</details>
+<details class="c1"> 
+  <summary>4</summary> 
+</details>
+<details class="c1"> 
+  <summary>14</summary> 
+</details>
+<details class="c1"> 
+  <summary>6</summary> 
+</details>
+<details class="c1"> 
+  <summary>16</summary> 
+</details>
+<details class="c1"> 
+  <summary>1</summary> 
+</details>
+<details class="c1"> 
+  <summary>11</summary> 
+</details>
+<details class="c1"> 
+  <summary>15</summary> 
+</details>
+<details class="c1"> 
+  <summary>5</summary> 
+</details>
+<details class="c1"> 
+  <summary>12</summary> 
+</details>
+<details class="c1"> 
+  <summary>8</summary> 
+</details>
+<details class="c1"> 
+  <summary>18</summary> 
+</details>
+<details class="c1"> 
+  <summary>2</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>377_PlusPlus_hippoc._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>378_crePlus_hippoc</summary> 
+<details class="c1"> 
+  <summary>378_crePlus_hippoc._STARgenome</summary> 
+</details>
+<details class="c1"> 
+  <summary>378_crePlus_hippoc._STARtmp</summary> 
+<details class="c1"> 
+  <summary>BAMsort</summary> 
+<details class="c1"> 
+  <summary>16</summary> 
+</details>
+<details class="c1"> 
+  <summary>0</summary> 
+</details>
+<details class="c1"> 
+  <summary>7</summary> 
+</details>
+<details class="c1"> 
+  <summary>11</summary> 
+</details>
+<details class="c1"> 
+  <summary>15</summary> 
+</details>
+<details class="c1"> 
+  <summary>9</summary> 
+</details>
+<details class="c1"> 
+  <summary>3</summary> 
+</details>
+<details class="c1"> 
+  <summary>4</summary> 
+</details>
+<details class="c1"> 
+  <summary>12</summary> 
+</details>
+<details class="c1"> 
+  <summary>18</summary> 
+</details>
+<details class="c1"> 
+  <summary>10</summary> 
+</details>
+<details class="c1"> 
+  <summary>6</summary> 
+</details>
+<details class="c1"> 
+  <summary>1</summary> 
+</details>
+<details class="c1"> 
+  <summary>17</summary> 
+</details>
+<details class="c1"> 
+  <summary>19</summary> 
+</details>
+<details class="c1"> 
+  <summary>13</summary> 
+</details>
+<details class="c1"> 
+  <summary>5</summary> 
+</details>
+<details class="c1"> 
+  <summary>2</summary> 
+</details>
+<details class="c1"> 
+  <summary>8</summary> 
+</details>
+<details class="c1"> 
+  <summary>14</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>374_crePlus_hippoc</summary> 
+<details class="c1"> 
+  <summary>374_crePlus_hippoc._STARtmp</summary> 
+<details class="c1"> 
+  <summary>BAMsort</summary> 
+<details class="c1"> 
+  <summary>6</summary> 
+</details>
+<details class="c1"> 
+  <summary>11</summary> 
+</details>
+<details class="c1"> 
+  <summary>16</summary> 
+</details>
+<details class="c1"> 
+  <summary>1</summary> 
+</details>
+<details class="c1"> 
+  <summary>5</summary> 
+</details>
+<details class="c1"> 
+  <summary>18</summary> 
+</details>
+<details class="c1"> 
+  <summary>12</summary> 
+</details>
+<details class="c1"> 
+  <summary>15</summary> 
+</details>
+<details class="c1"> 
+  <summary>8</summary> 
+</details>
+<details class="c1"> 
+  <summary>2</summary> 
+</details>
+<details class="c1"> 
+  <summary>0</summary> 
+</details>
+<details class="c1"> 
+  <summary>17</summary> 
+</details>
+<details class="c1"> 
+  <summary>10</summary> 
+</details>
+<details class="c1"> 
+  <summary>7</summary> 
+</details>
+<details class="c1"> 
+  <summary>3</summary> 
+</details>
+<details class="c1"> 
+  <summary>9</summary> 
+</details>
+<details class="c1"> 
+  <summary>14</summary> 
+</details>
+<details class="c1"> 
+  <summary>13</summary> 
+</details>
+<details class="c1"> 
+  <summary>19</summary> 
+</details>
+<details class="c1"> 
+  <summary>4</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>374_crePlus_hippoc._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>373_PlusPlus_hippoc</summary> 
+<details class="c1"> 
+  <summary>373_PlusPlus_hippoc._STARtmp</summary> 
+<details class="c1"> 
+  <summary>BAMsort</summary> 
+<details class="c1"> 
+  <summary>0</summary> 
+</details>
+<details class="c1"> 
+  <summary>17</summary> 
+</details>
+<details class="c1"> 
+  <summary>10</summary> 
+</details>
+<details class="c1"> 
+  <summary>7</summary> 
+</details>
+<details class="c1"> 
+  <summary>9</summary> 
+</details>
+<details class="c1"> 
+  <summary>3</summary> 
+</details>
+<details class="c1"> 
+  <summary>14</summary> 
+</details>
+<details class="c1"> 
+  <summary>19</summary> 
+</details>
+<details class="c1"> 
+  <summary>13</summary> 
+</details>
+<details class="c1"> 
+  <summary>4</summary> 
+</details>
+<details class="c1"> 
+  <summary>11</summary> 
+</details>
+<details class="c1"> 
+  <summary>6</summary> 
+</details>
+<details class="c1"> 
+  <summary>1</summary> 
+</details>
+<details class="c1"> 
+  <summary>16</summary> 
+</details>
+<details class="c1"> 
+  <summary>12</summary> 
+</details>
+<details class="c1"> 
+  <summary>18</summary> 
+</details>
+<details class="c1"> 
+  <summary>5</summary> 
+</details>
+<details class="c1"> 
+  <summary>2</summary> 
+</details>
+<details class="c1"> 
+  <summary>8</summary> 
+</details>
+<details class="c1"> 
+  <summary>15</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>373_PlusPlus_hippoc._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>FastQC</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>QC_report</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiQC</summary> 
+<details class="c1"> 
+  <summary>multiqc_data</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQ_Cutadapt</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Annotation</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>.snakemake</summary> 
+<details class="c1"> 
+  <summary>singularity</summary> 
+</details>
+<details class="c1"> 
+  <summary>metadata</summary> 
+</details>
+<details class="c1"> 
+  <summary>conda-archive</summary> 
+</details>
+<details class="c1"> 
+  <summary>locks</summary> 
+</details>
+<details class="c1"> 
+  <summary>shadow</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg1_vivo_rnaseq_snakemake_log</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQ</summary> 
+</details>
+<details class="c1"> 
+  <summary>featureCounts</summary> 
+<details class="c1"> 
+  <summary>norm_count</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Sambamba</summary> 
+</details>
+<details class="c1"> 
+  <summary>Salmon</summary> 
+<details class="c1"> 
+  <summary>373_PlusPlus_hippoc</summary> 
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>378_crePlus_hippoc</summary> 
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>374_crePlus_hippoc</summary> 
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>SalmonIndex</summary> 
+</details>
+<details class="c1"> 
+  <summary>377_PlusPlus_hippoc</summary> 
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>bamCoverage</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FastQC_trimmed</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>FOXG1_RNA-seq_TSA</summary> 
+<details class="c1"> 
+  <summary>output_snakePipes_hippoDIV11-WT-FOXG1ht</summary> 
+<details class="c1"> 
+  <summary>cluster_logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiQC</summary> 
+<details class="c1"> 
+  <summary>multiqc_data</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>originalFASTQ</summary> 
+</details>
+<details class="c1"> 
+  <summary>QC_report</summary> 
+</details>
+<details class="c1"> 
+  <summary>STAR</summary> 
+<details class="c1"> 
+  <summary>1288_4-WT_E185hippo_DIV11</summary> 
+<details class="c1"> 
+  <summary>1288_4-WT_E185hippo_DIV11._STARgenome</summary> 
+</details>
+<details class="c1"> 
+  <summary>1288_4-WT_E185hippo_DIV11._STARtmp</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>hippoTSA_shFoxg1_vs_shCtr</summary> 
+</details>
+<details class="c1"> 
+  <summary>hippoTSA_shCtr_TSA_vs_DMSO</summary> 
+</details>
+<details class="c1"> 
+  <summary>hippoTSA_shFoxg1_TSA_vs_DMSO</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg1_RNA-Seq_inVitroHippo</summary> 
+<details class="c1"> 
+  <summary>output_snakepipes</summary> 
+<details class="c1"> 
+  <summary>cluster_logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>Salmon</summary> 
+<details class="c1"> 
+  <summary>Luciferasen6_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg112_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>SalmonIndex</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg1n5_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg153_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Luciferasen5_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg111_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Luciferase83_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg1n6_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Luciferase42_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Luciferase41_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>aux_info</summary> 
+<details class="c1"> 
+  <summary>bootstrap</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>libParams</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>QC_report</summary> 
+</details>
+<details class="c1"> 
+  <summary>deepTools_qc</summary> 
+<details class="c1"> 
+  <summary>multiBigwigSummary</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>estimateReadFiltering</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotCorrelation</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotPCA</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotEnrichment</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Sambamba</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiQC</summary> 
+<details class="c1"> 
+  <summary>multiqc_data</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>featureCounts</summary> 
+</details>
+<details class="c1"> 
+  <summary>STAR</summary> 
+<details class="c1"> 
+  <summary>Luciferasen6_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Luciferasen6_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+<details class="c1"> 
+  <summary>Luciferasen6_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>Luciferase83_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Luciferase83_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+<details class="c1"> 
+  <summary>Luciferase83_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Luciferasen5_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Luciferasen5_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+<details class="c1"> 
+  <summary>Luciferasen5_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Luciferase42_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Luciferase42_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+<details class="c1"> 
+  <summary>Luciferase42_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg1n5_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Foxg1n5_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg1n5_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg112_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Foxg112_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg112_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg153_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Foxg153_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg153_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>Luciferase41_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Luciferase41_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+<details class="c1"> 
+  <summary>Luciferase41_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg1n6_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Foxg1n6_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg1n6_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg111_mm_rna_sr_berulavat</summary> 
+<details class="c1"> 
+  <summary>Foxg111_mm_rna_sr_berulavat._STARgenome</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg111_mm_rna_sr_berulavat._STARtmp</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQ</summary> 
+</details>
+<details class="c1"> 
+  <summary>.snakemake</summary> 
+<details class="c1"> 
+  <summary>conda-archive</summary> 
+</details>
+<details class="c1"> 
+  <summary>singularity</summary> 
+</details>
+<details class="c1"> 
+  <summary>metadata</summary> 
+</details>
+<details class="c1"> 
+  <summary>shadow</summary> 
+</details>
+<details class="c1"> 
+  <summary>locks</summary> 
+</details>
+<details class="c1"> 
+  <summary>Foxg1_vitro_rnaseq_snakemake_log</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Annotation</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQ_Cutadapt</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>bamCoverage</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg1_code</summary> 
+<details class="c1"> 
+  <summary>.git</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+<details class="c1"> 
+  <summary>refs</summary> 
+<details class="c1"> 
+  <summary>remotes</summary> 
+<details class="c1"> 
+  <summary>origin</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>heads</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>info</summary> 
+</details>
+<details class="c1"> 
+  <summary>hooks</summary> 
+</details>
+<details class="c1"> 
+  <summary>refs</summary> 
+<details class="c1"> 
+  <summary>heads</summary> 
+</details>
+<details class="c1"> 
+  <summary>tags</summary> 
+</details>
+<details class="c1"> 
+  <summary>remotes</summary> 
+<details class="c1"> 
+  <summary>origin</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>objects</summary> 
+<details class="c1"> 
+  <summary>f4</summary> 
+</details>
+<details class="c1"> 
+  <summary>a3</summary> 
+</details>
+<details class="c1"> 
+  <summary>50</summary> 
+</details>
+<details class="c1"> 
+  <summary>49</summary> 
+</details>
+<details class="c1"> 
+  <summary>71</summary> 
+</details>
+<details class="c1"> 
+  <summary>df</summary> 
+</details>
+<details class="c1"> 
+  <summary>info</summary> 
+</details>
+<details class="c1"> 
+  <summary>30</summary> 
+</details>
+<details class="c1"> 
+  <summary>6f</summary> 
+</details>
+<details class="c1"> 
+  <summary>9a</summary> 
+</details>
+<details class="c1"> 
+  <summary>9f</summary> 
+</details>
+<details class="c1"> 
+  <summary>be</summary> 
+</details>
+<details class="c1"> 
+  <summary>40</summary> 
+</details>
+<details class="c1"> 
+  <summary>e2</summary> 
+</details>
+<details class="c1"> 
+  <summary>da</summary> 
+</details>
+<details class="c1"> 
+  <summary>70</summary> 
+</details>
+<details class="c1"> 
+  <summary>c3</summary> 
+</details>
+<details class="c1"> 
+  <summary>9c</summary> 
+</details>
+<details class="c1"> 
+  <summary>00</summary> 
+</details>
+<details class="c1"> 
+  <summary>38</summary> 
+</details>
+<details class="c1"> 
+  <summary>1c</summary> 
+</details>
+<details class="c1"> 
+  <summary>pack</summary> 
+</details>
+<details class="c1"> 
+  <summary>60</summary> 
+</details>
+<details class="c1"> 
+  <summary>83</summary> 
+</details>
+<details class="c1"> 
+  <summary>03</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>branches</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>in-vivo_Hippo_CA-DG</summary> 
+<details class="c1"> 
+  <summary>FIGURES</summary> 
+</details>
+<details class="c1"> 
+  <summary>INTERMEDIATE_FILES</summary> 
+<details class="c1"> 
+  <summary>.ipynb_checkpoints</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>DESeq2</summary> 
+</details>
+<details class="c1"> 
+  <summary>.ipynb_checkpoints</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>in-vitro_Hippo</summary> 
+<details class="c1"> 
+  <summary>stratified_Annotation_5_UTR_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Foxg1ChIP_DIV11_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>stratified_Annotation_Distal_Intergenic_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>stratified_Annotation_Exon_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>stratified_Annotation_Downstream_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FIGURES</summary> 
+</details>
+<details class="c1"> 
+  <summary>stratified_Annotation_Intron_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>.ipynb_checkpoints</summary> 
+</details>
+<details class="c1"> 
+  <summary>INTERMEDIATE_FILES</summary> 
+<details class="c1"> 
+  <summary>Diff_ATAC_Foxg1KDvsCtr_DIV11</summary> 
+<details class="c1"> 
+  <summary>output_homer</summary> 
+</details>
+<details class="c1"> 
+  <summary>output_uropa</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>DATA_INTEGRATION</summary> 
+</details>
+<details class="c1"> 
+  <summary>Diff_H3K4me3_Foxg1KDvsCtr_DIV11</summary> 
+<details class="c1"> 
+  <summary>output_uropa</summary> 
+</details>
+<details class="c1"> 
+  <summary>output_homer</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Diff_H3K27ac_Foxg1KDvsCtr_DIV11</summary> 
+<details class="c1"> 
+  <summary>output_homer</summary> 
+</details>
+<details class="c1"> 
+  <summary>output_uropa</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>DESeq2_Foxg1_RNAseq_E18.5DIV11Hippo_Foxg1het-vs-WT</summary> 
+</details>
+<details class="c1"> 
+  <summary>.ipynb_checkpoints</summary> 
+</details>
+<details class="c1"> 
+  <summary>Diff_H3K4me1_Foxg1KDvsCtr_DIV11</summary> 
+<details class="c1"> 
+  <summary>output_uropa</summary> 
+</details>
+<details class="c1"> 
+  <summary>output_homer</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>DESeq2_Foxg1_RNAseq_E18.5DIV7Hippo_Foxg1Sh-vs-LucifSh</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>stratified_Annotation_Promoter_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>stratified_Annotation_3_UTR_motifs</summary> 
+<details class="c1"> 
+  <summary>images</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>FOXG1-NEUROD1 ChIP_KD</summary> 
+</details>
+<details class="c1"> 
+  <summary>FoxG1_ATAC_inVitroHippo_outputSnakePipes</summary> 
+<details class="c1"> 
+  <summary>output_snakepipes</summary> 
+<details class="c1"> 
+  <summary>Sambamba</summary> 
+</details>
+<details class="c1"> 
+  <summary>FastQC_trimmed</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>deepTools_ATAC</summary> 
+<details class="c1"> 
+  <summary>plotFingerprint</summary> 
+</details>
+<details class="c1"> 
+  <summary>bamCompare</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+<details class="c1"> 
+  <summary>deepTools_ATAC</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Filtering_metrics</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>cluster_logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>MACS2_QC</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQ</summary> 
+</details>
+<details class="c1"> 
+  <summary>.snakemake</summary> 
+<details class="c1"> 
+  <summary>conda-archive</summary> 
+</details>
+<details class="c1"> 
+  <summary>metadata</summary> 
+</details>
+<details class="c1"> 
+  <summary>locks</summary> 
+</details>
+<details class="c1"> 
+  <summary>shadow</summary> 
+</details>
+<details class="c1"> 
+  <summary>singularity</summary> 
+</details>
+<details class="c1"> 
+  <summary>ATAC_snakemake_log</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>multiQC</summary> 
+<details class="c1"> 
+  <summary>multiqc_data</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>filtered_bam</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>FASTQ_Cutadapt</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>bamCoverage</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>aux_files</summary> 
+</details>
+<details class="c1"> 
+  <summary>MACS2</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+<details class="c1"> 
+  <summary>callOpenChromatin</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>FastQC</summary> 
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>Bowtie2</summary> 
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+<details class="c1"> 
+  <summary>ATAC_deepTools_qc</summary> 
+<details class="c1"> 
+  <summary>plotCoverage</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotPCA</summary> 
+</details>
+<details class="c1"> 
+  <summary>estimateReadFiltering</summary> 
+</details>
+<details class="c1"> 
+  <summary>bamPEFragmentSize</summary> 
+</details>
+<details class="c1"> 
+  <summary>plotCorrelation</summary> 
+</details>
+<details class="c1"> 
+  <summary>multiBamSummary</summary> 
+</details>
+<details class="c1"> 
+  <summary>logs</summary> 
+</details>
+<details class="c1"> 
+  <summary>.benchmark</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>ATAC and RELACS_rawdata_FOXG1</summary> 
+<details class="c1"> 
+  <summary>190816_J00182_0171_AHC3TGBBXY_lanes3_4_5_6_7_8</summary> 
+<details class="c1"> 
+  <summary>Project_979_Maier_A03_Vogel</summary> 
+<details class="c1"> 
+  <summary>Sample_19L003067</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L003069</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L003070</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L003071</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L003068</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>191018_A00931_0015_BHGT5HDRXX_lanes1_2</summary> 
+<details class="c1"> 
+  <summary>Project_1122_Franz_A03_Vogel</summary> 
+<details class="c1"> 
+  <summary>Sample_19L004837</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L004839</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L004836</summary> 
+</details>
+<details class="c1"> 
+  <summary>Sample_19L004838</summary> 
+</details>
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>hippoTSA_shFoxg1_vs_shCtr</summary> 
+</details>
+<details class="c1"> 
+  <summary>hippoTSA_shCtr_TSA_vs_DMSO</summary> 
+</details>
+<details class="c1"> 
+  <summary>hippoTSA_shFoxg1_TSA_vs_DMSO</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Galaxy-History-npm1.tar</summary> 
+<details class="c1"> 
+  <summary>datasets</summary> 
+<details class="c1"> 
+  <summary>extra_files_path_15</summary> 
+</details>
+<details class="c1"> 
+  <summary>bigwig_npm1</summary> 
+</details>
+</details>
+</details>
+<details class="c1"> 
+  <summary>Galaxy-History-npm1-k79me2-diffbind.tar</summary> 
+<details class="c1"> 
+  <summary>datasets</summary> 
+<details class="c1"> 
+  <summary>npm1 bam </summary> 
+</details>
+</details>
+</details>
+{% endblock %}

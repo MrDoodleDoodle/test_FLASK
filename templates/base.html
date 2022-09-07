@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<form method="POST">
+    <p>maximal search depth:   0<input type="range" id="depth" name="depth" min="0" max="10" value={{depth}}>10   (0 = unlimited depth) </p>
+    <p>search: <input name="text" type="search"></p>
+</form>
+
+<body>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css') }}">
+    {% block body %}
+    {% endblock %}
+</body>
+</html>

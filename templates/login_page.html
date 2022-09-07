@@ -1,0 +1,11 @@
+<div>
+    <label for="pass">Password:</label>
+</div>
+<form method="POST">
+    <input type="password" id="pass" name="password"
+           required>
+</form>
+{% if error %}
+    <p class="error"><strong>Error:</strong> {{ error }}
+{% endif %}
+<!--<input type="submit" value="sign in">-->
